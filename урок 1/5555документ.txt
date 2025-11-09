@@ -1,0 +1,12 @@
+…или создайте новый репозиторий в командной строке
+echo "# Ucheba2025" >> README.md 
+git init 
+git add README.md 
+git commit -m "первый коммит" 
+git branch -M main 
+git remote add origin https://github.com/Maksat-ast/Ucheba2025.git
+ git push -u origin main
+…или отправить существующий репозиторий из командной строки
+git remote add origin https://github.com/Maksat-ast/Ucheba2025.git
+ git branch -M main 
+git push -u origin main
