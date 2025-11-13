@@ -1,0 +1,41 @@
+
+.new_cards_blok
+{
+    margin: 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.new_cards  {
+    position: relative;
+    width: calc(33% - 5px);
+    min-width: 275px;
+    border: 2px solid #000;
+    border-radius: 7px;
+    padding: 15px;
+    z-index: 10;
+}
+
+.new_cards .new_cards_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+
+    .new_cards_center
+    {
+        margin-bottom: 10px;
+    }
+
+.new_cards .new_cards_footer {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.new_cards_footer .new_cards_button {
+    width: 50%;
+}

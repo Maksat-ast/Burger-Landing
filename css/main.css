@@ -1,0 +1,63 @@
+@import url(./reset.css);
+@import url(./components/button.css);
+@import url(./components/new_card.css);
+
+.test_main {}
+
+.test
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.test1
+{
+    background-color: red;
+}
+
+.test2
+{
+    background-color: blue;
+}
+
+.test3
+{
+    background-color: green;
+}
+
+.test4
+{
+    background-color: yellow;
+}
+
+header {
+    position: static;
+    top: 0;
+    display: flex;
+    padding: 10px 5px;
+    background-image: url(./components/фон-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* высота шапки */
+  color: white; /* цвет текста */
+  display: flex; /* чтобы LOGO и меню выровнять */
+  /* align-items: center; выровнять по вертикали */
+  justify-content: space-between; /* LOGO слева, меню справа */
+  padding: 0 40px; /* отступы по бокам */
+  font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: #c72525;
+}
+main {
+    padding-top: 50px;
+    height: 500vh;
+}
