@@ -6,6 +6,7 @@
 
 .test
 {
+    
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +39,7 @@ header {
     top: 0;
     display: flex;
     padding: 10px 5px;
-    background-image: url(./components/фон-2.jpg);
+    background-image: url(./image/фон-2.jpg);
     background-size: cover;
     background-position: center;
     height: 400px; /* высота шапки */
