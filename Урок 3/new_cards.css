@@ -1,0 +1,84 @@
+.new_cards_blok {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+
+/* .new_cards {
+    height: 350px;
+    overflow: hidden;
+    border: 2px solid #0a0a0a;
+    border-radius: 7px;
+    padding: 15px;
+
+} */
+
+.new_cards {
+    position: relative;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* распределяем верх → низ */
+    padding: 20px;
+    color: #371717;
+}
+
+/* Заголовок выше */
+.new_cards_header {
+    margin-top: 40px; /* подними больше/меньше по вкусу */
+}
+
+/* Блок кнопок ниже, но не в самом низу */
+.new_cards_footer {
+    margin-bottom: 20px; /* регулируй высоту от низа */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.new_cards_footer button {
+    flex: 1;
+}
+
+.new_cards.new_cards_minimum {
+    background-image: url(./image/1642853674_20-abrakadabra-fun-p-fon-dlya-mebeli-25.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.new_cards.new_cards_eco {
+    background-image: url(./image/1642853738_18-abrakadabra-fun-p-fon-dlya-mebeli-23.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.new_cards.new_cards_skandi {
+    background-image: url(./image/сканди.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.new_cards .new_cards_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.new_cards .new_cards_footer {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.new_cards_footer .new_cards_button {
+    width: 50%;
+
+}
+
+.new_cards_text {
+    color: #261212;
+
+}

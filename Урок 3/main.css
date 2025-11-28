@@ -1,38 +1,8 @@
 @import url(./reset.css);
-@import url(./components/button.css);
-@import url(./components/new_card.css);
+@import url(./button.css);
+@import url(./new_cards.css);
 
-.test_main {}
 
-.test
-{
-    
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-}
-
-.test1
-{
-    background-color: red;
-}
-
-.test2
-{
-    background-color: blue;
-}
-
-.test3
-{
-    background-color: green;
-}
-
-.test4
-{
-    background-color: yellow;
-}
 
 header {
     position: static;
@@ -43,13 +13,25 @@ header {
     background-size: cover;
     background-position: center;
     height: 400px; /* высота шапки */
-  color: white; /* цвет текста */
+  color: #0e0a30; /* цвет текста */
   display: flex; /* чтобы LOGO и меню выровнять */
   /* align-items: center; выровнять по вертикали */
   justify-content: space-between; /* LOGO слева, меню справа */
   padding: 0 40px; /* отступы по бокам */
   font-size: 20px;
 }
+body {
+    background-color: bisque;
+}
+    a {
+        color: #0e0a30;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
 
 footer {
     display: flex;
@@ -60,5 +42,5 @@ footer {
 }
 main {
     padding-top: 50px;
-    height: 500vh;
+    height: 220vh;
 }
