@@ -1,66 +1,53 @@
-h1 {
-    text-align: center;
-}  
 
-.Pervoe {
-    color: brown;
+.test__p > .bg-black {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-.Vtoroe {
-    color: blue;
+
+.test__p ~ .bg-black {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-.Tretie {
-    color: green;
+
+.img.block {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
 }
 
-.img block {
-    width: 200px;
-    height: 1000%;
-    overflow: hidden;
-    margin: 50px 0;
+.img.block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
-.jpg {
-    width: 100%;
-    height: 100%;
- 
-}
-.btn{
-    border: 0;
-    outline: 0;
-    color: white;
-    background-color: rgba(255, 0, 200, 0.733);
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: border-radius .2s;
+button.bg-black {
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #6a0dad;
+  transition: background-color 0.2s;
 }
 
-    .btn:hover {
-        border-radius: 10px;
-        background-color: rgb(0, 187, 255);
-    }
 
-    .btn:active {
-        background-color: black;
-    }
+button.bg-black:active {
+  background-color: #28a745;
+}
 
-    .btn2
-    {border: 0;
-    outline: 0;
-    color: white;
-    background-color: rgba(255, 0, 200, 0.733);
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: border-radius .2s;}
+button.bg-black:focus {
+  background-color: #28a745;
+  outline: none;
+}
 
-        .btn2:hover {
-            border-radius: 10px;
-            background-color: rgb(0, 187, 255);
-        }
 
-        .btn2:active {
-            background-color: black;
-        }
+
