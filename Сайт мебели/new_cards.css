@@ -20,19 +20,18 @@
     height: 380px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* распределяем верх → низ */
+    justify-content: space-between;
     padding: 20px;
     color: #371717;
 }
 
-/* Заголовок выше */
 .new_cards_header {
-    margin-top: 40px; /* подними больше/меньше по вкусу */
+    margin-top: 40px;
 }
 
-/* Блок кнопок ниже, но не в самом низу */
+
 .new_cards_footer {
-    margin-bottom: 20px; /* регулируй высоту от низа */
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -82,3 +81,4 @@
     color: #261212;
 
 }
+

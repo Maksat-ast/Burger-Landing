@@ -14,12 +14,11 @@ header {
     background-image: url(./image/фон-2.jpg);
     background-size: cover;
     background-position: center;
-    height: 400px; /* высота шапки */
-  color: #0e0a30; /* цвет текста */
-  display: flex; /* чтобы LOGO и меню выровнять */
-  /* align-items: center; выровнять по вертикали */
-  justify-content: space-between; /* LOGO слева, меню справа */
-  padding: 0 40px; /* отступы по бокам */
+    height: 400px; 
+  color: #0e0a30; 
+  display: flex;
+  justify-content: space-between; 
+  padding: 0 40px;
   font-size: 20px;
 }
 .header__nav ul {
@@ -62,4 +61,16 @@ footer {
 main {
     padding-top: 50px;
     height: 220vh;
+}
+
+@media (max-width: 650px) {
+    .header__nav {
+        flex-direction: column;
+    }
+    
+    .header__list {
+        flex-direction: column;
+        text-align: center;
+        gap: 2px;
+    }
 }
