@@ -1,3 +1,22 @@
+.btn-login,
+.btn-cart {
+  padding: 8px 14px;
+  background: hwb(4 55% 24% / 0.63);
+  border: 2px solid #0e0a30;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0e0a30;
+  backdrop-filter: blur(3px);
+}
+
+.btn-login:hover,
+.btn-cart:hover {
+  background: #0e0a30;
+  color: #fff;
+}
+
+
 button {
     border: 0;
     background-color: transparent;
